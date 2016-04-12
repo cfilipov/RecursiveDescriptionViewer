@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2162A891BBFBF8E00A00EAE /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2162A881BBFBF8E00A00EAE /* OutlineViewController.swift */; };
+		B231616B1BBEEF590013CE89 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B231616A1BBEEF590013CE89 /* WindowController.swift */; };
+		B282F3A61BC5B94C00449528 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282F3A51BC5B94C00449528 /* ListViewController.swift */; };
+		B28F086F1BBCF64500E360CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F086E1BBCF64500E360CA /* AppDelegate.swift */; };
+		B28F08711BBCF64500E360CA /* RDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F08701BBCF64500E360CA /* RDViewController.swift */; };
+		B28F08731BBCF64500E360CA /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F08721BBCF64500E360CA /* Document.swift */; };
+		B28F08751BBCF64500E360CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28F08741BBCF64500E360CA /* Assets.xcassets */; };
+		B28F08781BBCF64500E360CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28F08761BBCF64500E360CA /* Main.storyboard */; };
+		B28F08801BBCF6D500E360CA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F087F1BBCF6D500E360CA /* Model.swift */; };
+		B28F08821BBCF7DF00E360CA /* NSScanner+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F08811BBCF7DF00E360CA /* NSScanner+Swift.swift */; };
+		B28F08841BBCF81800E360CA /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F08831BBCF81800E360CA /* Tokenizer.swift */; };
+		B28F08861BBCF8E800E360CA /* NSError+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F08851BBCF8E800E360CA /* NSError+Swift.swift */; };
+		B28F08881BBD013900E360CA /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F08871BBD013900E360CA /* String+Regex.swift */; };
+		B28F088A1BBD017200E360CA /* NSScanner+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F08891BBD017200E360CA /* NSScanner+Regex.swift */; };
+		B28F088C1BBD0C0200E360CA /* IndentGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F088B1BBD0C0200E360CA /* IndentGenerator.swift */; };
+		B28F08901BBD149100E360CA /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F088F1BBD149100E360CA /* Parser.swift */; };
+		B28F08A41BBDCDE200E360CA /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F08A31BBDCDE200E360CA /* NSRegularExpression+Swift.swift */; };
+		B28F08A61BBDD91000E360CA /* RDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28F08A51BBDD91000E360CA /* RDView.swift */; };
+		B2D455681BFD713900F49518 /* Observable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D455601BFD711400F49518 /* Observable.framework */; };
+		B2D455691BFD713900F49518 /* Observable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B2D455601BFD711400F49518 /* Observable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B2D4FC491BC63DE9003B0E7E /* InspectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC481BC63DE9003B0E7E /* InspectorViewController.swift */; };
+		B2D4FC4F1BC63E4E003B0E7E /* TSClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC4C1BC63E4E003B0E7E /* TSClipView.m */; };
+		B2D4FC501BC63E4E003B0E7E /* TSStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC4E1BC63E4E003B0E7E /* TSStackView.m */; };
+		B2D4FC5A1BC70748003B0E7E /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC591BC70748003B0E7E /* Stack.swift */; };
+		B2D4FC5C1BC707AB003B0E7E /* CGx+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC5B1BC707AB003B0E7E /* CGx+String.swift */; };
+		B2D4FC5E1BC70B86003B0E7E /* GraphTraversable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC5D1BC70B86003B0E7E /* GraphTraversable.swift */; };
+		B2D4FC601BC70EC3003B0E7E /* LayerBackedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC5F1BC70EC3003B0E7E /* LayerBackedView.swift */; };
+		B2D4FC621BC70F7F003B0E7E /* UnclippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC611BC70F7F003B0E7E /* UnclippedView.swift */; };
+		B2D4FC641BC70FEF003B0E7E /* FlippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC631BC70FEF003B0E7E /* FlippedView.swift */; };
+		B2D4FC661BC781CB003B0E7E /* Array+SafeSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC651BC781CB003B0E7E /* Array+SafeSubscripting.swift */; };
+		B2D4FC7E1BC96FD5003B0E7E /* MainContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D4FC7D1BC96FD5003B0E7E /* MainContainerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2D4555F1BFD711400F49518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D455581BFD711400F49518 /* Observable-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65263A9D1954BC5000B39269;
+			remoteInfo = Observable;
+		};
+		B2D455611BFD711400F49518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D455581BFD711400F49518 /* Observable-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65263AA81954BC5000B39269;
+			remoteInfo = "Observable Tests";
+		};
+		B2D455631BFD711400F49518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D455581BFD711400F49518 /* Observable-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6592C2FC1957532100BA8CB7;
+			remoteInfo = "Observable-iOS";
+		};
+		B2D455651BFD711400F49518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D455581BFD711400F49518 /* Observable-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6592C3061957532100BA8CB7;
+			remoteInfo = "Observable-iOS Tests";
+		};
+		B2D4556A1BFD713900F49518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D455581BFD711400F49518 /* Observable-Swift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 65263A9C1954BC5000B39269;
+			remoteInfo = Observable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B282F3A41BC58FE900449528 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B2D455691BFD713900F49518 /* Observable.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2162A881BBFBF8E00A00EAE /* OutlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
+		B231616A1BBEEF590013CE89 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		B282F3A51BC5B94C00449528 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		B28F086B1BBCF64500E360CA /* RecursiveDescriptionViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecursiveDescriptionViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28F086E1BBCF64500E360CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B28F08701BBCF64500E360CA /* RDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDViewController.swift; sourceTree = "<group>"; };
+		B28F08721BBCF64500E360CA /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		B28F08741BBCF64500E360CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B28F08771BBCF64500E360CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B28F08791BBCF64500E360CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28F087F1BBCF6D500E360CA /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B28F08811BBCF7DF00E360CA /* NSScanner+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSScanner+Swift.swift"; path = "RecursiveDescriptionViewer/NSScanner+Swift.swift"; sourceTree = "<group>"; };
+		B28F08831BBCF81800E360CA /* Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
+		B28F08851BBCF8E800E360CA /* NSError+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError+Swift.swift"; sourceTree = "<group>"; };
+		B28F08871BBD013900E360CA /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		B28F08891BBD017200E360CA /* NSScanner+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSScanner+Regex.swift"; sourceTree = "<group>"; };
+		B28F088B1BBD0C0200E360CA /* IndentGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndentGenerator.swift; sourceTree = "<group>"; };
+		B28F088F1BBD149100E360CA /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B28F08A31BBDCDE200E360CA /* NSRegularExpression+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Swift.swift"; sourceTree = "<group>"; };
+		B28F08A51BBDD91000E360CA /* RDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDView.swift; sourceTree = "<group>"; };
+		B2D455581BFD711400F49518 /* Observable-Swift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Observable-Swift.xcodeproj"; path = "Carthage/Checkouts/Observable-Swift/Observable-Swift.xcodeproj"; sourceTree = "<group>"; };
+		B2D4FC481BC63DE9003B0E7E /* InspectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectorViewController.swift; sourceTree = "<group>"; };
+		B2D4FC4B1BC63E4E003B0E7E /* TSClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSClipView.h; sourceTree = "<group>"; };
+		B2D4FC4C1BC63E4E003B0E7E /* TSClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSClipView.m; sourceTree = "<group>"; };
+		B2D4FC4D1BC63E4E003B0E7E /* TSStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStackView.h; sourceTree = "<group>"; };
+		B2D4FC4E1BC63E4E003B0E7E /* TSStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSStackView.m; sourceTree = "<group>"; };
+		B2D4FC581BC6425E003B0E7E /* RecursiveDescriptionViewer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RecursiveDescriptionViewer-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2D4FC591BC70748003B0E7E /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		B2D4FC5B1BC707AB003B0E7E /* CGx+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGx+String.swift"; sourceTree = "<group>"; };
+		B2D4FC5D1BC70B86003B0E7E /* GraphTraversable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphTraversable.swift; sourceTree = "<group>"; };
+		B2D4FC5F1BC70EC3003B0E7E /* LayerBackedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerBackedView.swift; sourceTree = "<group>"; };
+		B2D4FC611BC70F7F003B0E7E /* UnclippedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnclippedView.swift; sourceTree = "<group>"; };
+		B2D4FC631BC70FEF003B0E7E /* FlippedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlippedView.swift; sourceTree = "<group>"; };
+		B2D4FC651BC781CB003B0E7E /* Array+SafeSubscripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+SafeSubscripting.swift"; sourceTree = "<group>"; };
+		B2D4FC7D1BC96FD5003B0E7E /* MainContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContainerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28F08681BBCF64500E360CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D455681BFD713900F49518 /* Observable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2162A901BC58B9400A00EAE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B2D455581BFD711400F49518 /* Observable-Swift.xcodeproj */,
+				B28F08811BBCF7DF00E360CA /* NSScanner+Swift.swift */,
+				B2D4FC4A1BC63E4E003B0E7E /* TSStackView */,
+				B2D4FC651BC781CB003B0E7E /* Array+SafeSubscripting.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		B23161671BBEEEBF0013CE89 /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				B28F088B1BBD0C0200E360CA /* IndentGenerator.swift */,
+				B28F088F1BBD149100E360CA /* Parser.swift */,
+				B28F08831BBCF81800E360CA /* Tokenizer.swift */,
+			);
+			name = Parsing;
+			sourceTree = "<group>";
+		};
+		B23161681BBEEEF40013CE89 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B28F08851BBCF8E800E360CA /* NSError+Swift.swift */,
+				B28F08A31BBDCDE200E360CA /* NSRegularExpression+Swift.swift */,
+				B28F08891BBD017200E360CA /* NSScanner+Regex.swift */,
+				B28F08871BBD013900E360CA /* String+Regex.swift */,
+				B2D4FC591BC70748003B0E7E /* Stack.swift */,
+				B2D4FC5B1BC707AB003B0E7E /* CGx+String.swift */,
+				B2D4FC5D1BC70B86003B0E7E /* GraphTraversable.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		B23161691BBEEF200013CE89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B28F087F1BBCF6D500E360CA /* Model.swift */,
+				B28F08721BBCF64500E360CA /* Document.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B28F08621BBCF64500E360CA = {
+			isa = PBXGroup;
+			children = (
+				B2162A901BC58B9400A00EAE /* Lib */,
+				B28F086C1BBCF64500E360CA /* Products */,
+				B28F086D1BBCF64500E360CA /* RecursiveDescriptionViewer */,
+			);
+			sourceTree = "<group>";
+		};
+		B28F086C1BBCF64500E360CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28F086B1BBCF64500E360CA /* RecursiveDescriptionViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28F086D1BBCF64500E360CA /* RecursiveDescriptionViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4FC581BC6425E003B0E7E /* RecursiveDescriptionViewer-Bridging-Header.h */,
+				B28F08791BBCF64500E360CA /* Info.plist */,
+				B28F086E1BBCF64500E360CA /* AppDelegate.swift */,
+				B2D4FC631BC70FEF003B0E7E /* FlippedView.swift */,
+				B2D4FC481BC63DE9003B0E7E /* InspectorViewController.swift */,
+				B2D4FC5F1BC70EC3003B0E7E /* LayerBackedView.swift */,
+				B282F3A51BC5B94C00449528 /* ListViewController.swift */,
+				B2D4FC7D1BC96FD5003B0E7E /* MainContainerViewController.swift */,
+				B2162A881BBFBF8E00A00EAE /* OutlineViewController.swift */,
+				B28F08A51BBDD91000E360CA /* RDView.swift */,
+				B28F08701BBCF64500E360CA /* RDViewController.swift */,
+				B2D4FC611BC70F7F003B0E7E /* UnclippedView.swift */,
+				B231616A1BBEEF590013CE89 /* WindowController.swift */,
+				B28F08741BBCF64500E360CA /* Assets.xcassets */,
+				B28F08761BBCF64500E360CA /* Main.storyboard */,
+				B23161691BBEEF200013CE89 /* Model */,
+				B23161671BBEEEBF0013CE89 /* Parsing */,
+				B23161681BBEEEF40013CE89 /* Util */,
+			);
+			path = RecursiveDescriptionViewer;
+			sourceTree = "<group>";
+		};
+		B2D455591BFD711400F49518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D455601BFD711400F49518 /* Observable.framework */,
+				B2D455621BFD711400F49518 /* Observable Tests.xctest */,
+				B2D455641BFD711400F49518 /* Observable.framework */,
+				B2D455661BFD711400F49518 /* Observable-iOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D4FC4A1BC63E4E003B0E7E /* TSStackView */ = {
+			isa = PBXGroup;
+			children = (
+				B2D4FC4B1BC63E4E003B0E7E /* TSClipView.h */,
+				B2D4FC4C1BC63E4E003B0E7E /* TSClipView.m */,
+				B2D4FC4D1BC63E4E003B0E7E /* TSStackView.h */,
+				B2D4FC4E1BC63E4E003B0E7E /* TSStackView.m */,
+			);
+			name = TSStackView;
+			path = Lib/TSStackView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28F086A1BBCF64500E360CA /* RecursiveDescriptionViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28F087C1BBCF64500E360CA /* Build configuration list for PBXNativeTarget "RecursiveDescriptionViewer" */;
+			buildPhases = (
+				B28F08671BBCF64500E360CA /* Sources */,
+				B28F08681BBCF64500E360CA /* Frameworks */,
+				B28F08691BBCF64500E360CA /* Resources */,
+				B282F3A41BC58FE900449528 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2D4556B1BFD713900F49518 /* PBXTargetDependency */,
+			);
+			name = RecursiveDescriptionViewer;
+			productName = RecursiveDescriptionViewer;
+			productReference = B28F086B1BBCF64500E360CA /* RecursiveDescriptionViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28F08631BBCF64500E360CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Cristian Filipov";
+				TargetAttributes = {
+					B28F086A1BBCF64500E360CA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B28F08661BBCF64500E360CA /* Build configuration list for PBXProject "RecursiveDescriptionViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28F08621BBCF64500E360CA;
+			productRefGroup = B28F086C1BBCF64500E360CA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B2D455591BFD711400F49518 /* Products */;
+					ProjectRef = B2D455581BFD711400F49518 /* Observable-Swift.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B28F086A1BBCF64500E360CA /* RecursiveDescriptionViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B2D455601BFD711400F49518 /* Observable.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Observable.framework;
+			remoteRef = B2D4555F1BFD711400F49518 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2D455621BFD711400F49518 /* Observable Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Observable Tests.xctest";
+			remoteRef = B2D455611BFD711400F49518 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2D455641BFD711400F49518 /* Observable.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Observable.framework;
+			remoteRef = B2D455631BFD711400F49518 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B2D455661BFD711400F49518 /* Observable-iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Observable-iOS Tests.xctest";
+			remoteRef = B2D455651BFD711400F49518 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B28F08691BBCF64500E360CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28F08751BBCF64500E360CA /* Assets.xcassets in Resources */,
+				B28F08781BBCF64500E360CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28F08671BBCF64500E360CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2162A891BBFBF8E00A00EAE /* OutlineViewController.swift in Sources */,
+				B2D4FC501BC63E4E003B0E7E /* TSStackView.m in Sources */,
+				B2D4FC491BC63DE9003B0E7E /* InspectorViewController.swift in Sources */,
+				B28F088A1BBD017200E360CA /* NSScanner+Regex.swift in Sources */,
+				B28F08A61BBDD91000E360CA /* RDView.swift in Sources */,
+				B28F088C1BBD0C0200E360CA /* IndentGenerator.swift in Sources */,
+				B231616B1BBEEF590013CE89 /* WindowController.swift in Sources */,
+				B28F08711BBCF64500E360CA /* RDViewController.swift in Sources */,
+				B2D4FC4F1BC63E4E003B0E7E /* TSClipView.m in Sources */,
+				B282F3A61BC5B94C00449528 /* ListViewController.swift in Sources */,
+				B2D4FC641BC70FEF003B0E7E /* FlippedView.swift in Sources */,
+				B28F08821BBCF7DF00E360CA /* NSScanner+Swift.swift in Sources */,
+				B28F08881BBD013900E360CA /* String+Regex.swift in Sources */,
+				B2D4FC661BC781CB003B0E7E /* Array+SafeSubscripting.swift in Sources */,
+				B28F08841BBCF81800E360CA /* Tokenizer.swift in Sources */,
+				B28F086F1BBCF64500E360CA /* AppDelegate.swift in Sources */,
+				B2D4FC5A1BC70748003B0E7E /* Stack.swift in Sources */,
+				B28F08901BBD149100E360CA /* Parser.swift in Sources */,
+				B28F08861BBCF8E800E360CA /* NSError+Swift.swift in Sources */,
+				B2D4FC7E1BC96FD5003B0E7E /* MainContainerViewController.swift in Sources */,
+				B2D4FC601BC70EC3003B0E7E /* LayerBackedView.swift in Sources */,
+				B28F08A41BBDCDE200E360CA /* NSRegularExpression+Swift.swift in Sources */,
+				B28F08731BBCF64500E360CA /* Document.swift in Sources */,
+				B2D4FC5E1BC70B86003B0E7E /* GraphTraversable.swift in Sources */,
+				B2D4FC5C1BC707AB003B0E7E /* CGx+String.swift in Sources */,
+				B28F08801BBCF6D500E360CA /* Model.swift in Sources */,
+				B2D4FC621BC70F7F003B0E7E /* UnclippedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2D4556B1BFD713900F49518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Observable;
+			targetProxy = B2D4556A1BFD713900F49518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B28F08761BBCF64500E360CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28F08771BBCF64500E360CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B28F087A1BBCF64500E360CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B28F087B1BBCF64500E360CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B28F087D1BBCF64500E360CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build",
+				);
+				INFOPLIST_FILE = RecursiveDescriptionViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.RecursiveDescriptionViewer;
+				PRODUCT_NAME = RecursiveDescriptionViewer;
+				SWIFT_OBJC_BRIDGING_HEADER = "RecursiveDescriptionViewer/RecursiveDescriptionViewer-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		B28F087E1BBCF64500E360CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build",
+				);
+				INFOPLIST_FILE = RecursiveDescriptionViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.RecursiveDescriptionViewer;
+				PRODUCT_NAME = RecursiveDescriptionViewer;
+				SWIFT_OBJC_BRIDGING_HEADER = "RecursiveDescriptionViewer/RecursiveDescriptionViewer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28F08661BBCF64500E360CA /* Build configuration list for PBXProject "RecursiveDescriptionViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28F087A1BBCF64500E360CA /* Debug */,
+				B28F087B1BBCF64500E360CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28F087C1BBCF64500E360CA /* Build configuration list for PBXNativeTarget "RecursiveDescriptionViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28F087D1BBCF64500E360CA /* Debug */,
+				B28F087E1BBCF64500E360CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B28F08631BBCF64500E360CA /* Project object */;
+}
